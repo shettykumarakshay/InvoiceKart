@@ -1,3 +1,0 @@
-F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Shared.dll
-F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Shared.deps.json
-F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Shared.pdb
