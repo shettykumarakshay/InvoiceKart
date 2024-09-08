@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "InvoicingKart.Repository/1.0.0": {
+        "dependencies": {
+          "InvoicingKart.Entity": "1.0.0",
+          "InvoicingKart.Shared": "1.0.0"
+        },
+        "runtime": {
+          "InvoicingKart.Repository.dll": {}
+        }
+      },
+      "InvoicingKart.Entity/1.0.0": {
+        "runtime": {
+          "InvoicingKart.Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InvoicingKart.Shared/1.0.0": {
+        "runtime": {
+          "InvoicingKart.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InvoicingKart.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InvoicingKart.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InvoicingKart.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

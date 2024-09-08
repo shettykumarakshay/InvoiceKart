@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Contract\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvoicingKart.Entity\InvoicingKart.Entity.csproj" />
+    <ProjectReference Include="..\InvoicingKart.Shared\InvoicingKart.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

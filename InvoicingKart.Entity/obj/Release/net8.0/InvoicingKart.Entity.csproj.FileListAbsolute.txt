@@ -1,0 +1,11 @@
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\bin\Release\net8.0\InvoicingKart.Entity.deps.json
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\bin\Release\net8.0\InvoicingKart.Entity.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\bin\Release\net8.0\InvoicingKart.Entity.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.AssemblyInfoInputs.cache
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.AssemblyInfo.cs
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.csproj.CoreCompileInputs.cache
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\refint\InvoicingKart.Entity.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\InvoicingKart.Entity.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Entity\obj\Release\net8.0\ref\InvoicingKart.Entity.dll

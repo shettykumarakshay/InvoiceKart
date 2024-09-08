@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "InvoicingKart.Shared/1.0.0": {
+        "runtime": {
+          "InvoicingKart.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InvoicingKart.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

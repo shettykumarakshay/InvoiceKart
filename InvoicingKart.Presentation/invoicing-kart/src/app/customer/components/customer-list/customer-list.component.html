@@ -1,0 +1,38 @@
+<div class="container mt-5">
+    <!-- Customer List -->
+  <div class="card">
+    <div class="card-header">
+      <h4>Customer List</h4>
+      <button type="button" class="btn btn-primary add-btn" (click)="addCustomer()">Add Customer</button>
+    </div>
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Contact Number</th>
+          <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let customer of customers">
+                <td>{{ customer.name }}</td>
+                <td>{{ customer.email }}</td>
+                <td>{{ customer.address }}</td>
+                <td>{{ customer.contactNumber }}</td>
+                <td>
+                  <button class="btn btn-warning btn-sm" (click)="onEditCustomer(customer)">Edit</button>
+                  <button class="btn btn-danger btn-sm btn-delete" (click)="onDeleteCustomer(customer)">Delete</button>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+  
+
+

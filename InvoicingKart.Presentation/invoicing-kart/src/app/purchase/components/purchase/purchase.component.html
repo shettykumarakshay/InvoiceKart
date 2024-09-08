@@ -1,0 +1,75 @@
+<div class="container customer-container mt-4">
+    <div class="form-group customer-wrapeer">
+        <label for="customer">Customer</label>
+        <select id="customer" [(ngModel)]="customerId" class="form-control" (change)="onCustomerChange($event)">
+            <option value="0">Select Customer</option>
+            <!-- Loop over categories and bind Id to value and Name to the display text -->
+            <option *ngFor="let customer of customers" [value]="customer.id">{{ customer.name }}</option>
+        </select>
+        <!-- <div *ngIf="isSubmitted && productForm.controls['category'].invalid" class="invalid-feedback">
+            Category is required.
+        </div> -->
+    </div>
+    <div class="container place-order">
+      <button class="btn btn-success" *ngIf="cart.length > 0 && !invoice" (click)="placeOrder()">Place Order</button>
+    </div>
+    <div class="cart-container">
+        <!-- Cart Icon with Total Count -->
+        <span class="cart-icon">
+          <fa-icon [icon]="faShoppingCart"></fa-icon>
+          <span class="cart-count">{{ getCartCount() }}</span>
+        </span>
+    </div>
+</div>
+
+
+<div class="container mt-4" *ngIf="showProducts && !showPayment && !invoice">
+    <h2>Products</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let product of products">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.name }}</h5>
+            <p class="card-text">{{ product.description }}</p>
+            <p class="card-text">Category: {{ product.category }}</p>
+            <p class="card-text">Price: ${{ product.price }}</p>
+            <p class="card-text">Stock: {{ product.quantity }}</p>
+            <button class="btn btn-primary" (click)="addToCart(product)" *ngIf="showAddCart(product)">Add to Cart</button>
+            <button class="btn btn-secondary remove-cart" *ngIf="showRemoveCart(product)" (click)="removeFromCart(product)">Remove from Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
+
+  <div class="container mt-4" *ngIf="showPayment">
+    <h3>Payment Method</h3>
+    <select [(ngModel)]="selectedPaymentMethod" class="form-control payment-method">
+      <option *ngFor="let method of paymentMethods" [value]="method">{{ method }}</option>
+    </select>
+
+    <h2>Total: ${{ calculateTotalAmount() }}</h2>
+    <button (click)="generateInvoice()" *ngIf="selectedPaymentMethod" class="btn btn-success">Generate Invoice</button>
+  </div>
+
+  <div class="container mt-4" *ngIf="invoice">
+    <h2>Invoice</h2>
+    <p><strong>Customer Name:</strong> {{ invoice.customer.name }}</p>
+    <p><strong>Email:</strong> {{ invoice.customer.email }}</p>
+    <p><strong>Address:</strong> {{ invoice.customer.address }}</p>
+    <h3>Purchased Products</h3>
+    <ul>
+      <li *ngFor="let item of invoice.items">
+        {{ item.product.name }} - Quantity: {{ item.quantity }} - Price: ${{ item.product.price }} - Subtotal: ${{ (item.product.price * item.quantity) - ((item.product.discount / 100) * item.product.price * item.quantity) }}
+      </li>
+    </ul>
+    <p><strong>Total Discount:</strong> {{ invoice.discount }}%</p>
+    <p><strong>Tax:</strong> {{ invoice.tax }}%</p>
+    <p><strong>Total Amount:</strong> ${{ invoice.totalAmount }}</p>
+    <p><strong>Payment Method:</strong> {{ invoice.paymentMethod }}</p>
+
+    <button class="btn btn-secondary" (click)="backToplaceOrder()">Back</button>
+  </div>
+  

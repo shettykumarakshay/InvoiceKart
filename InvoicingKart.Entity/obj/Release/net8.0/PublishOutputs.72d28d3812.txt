@@ -1,0 +1,3 @@
+F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Entity.dll
+F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Entity.deps.json
+F:\Akshay\Projects\InvoiceKart\publish\InvoicingKart.Entity.pdb

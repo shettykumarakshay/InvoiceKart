@@ -1,0 +1,17 @@
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Repository.deps.json
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Repository.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Repository.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.GeneratedMSBuildEditorConfig.editorconfig
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.AssemblyInfoInputs.cache
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.AssemblyInfo.cs
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.csproj.CoreCompileInputs.cache
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\refint\InvoicingKart.Repository.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\ref\InvoicingKart.Repository.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Entity.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Shared.dll
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Entity.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\bin\Debug\net8.0\InvoicingKart.Shared.pdb
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\InvoicingKart.Repository.csproj.AssemblyReference.cache
+F:\Akshay\Projects\InvoiceKart\InvoicingKart.Repository\obj\Debug\net8.0\Invoicin.92D3FDED.Up2Date

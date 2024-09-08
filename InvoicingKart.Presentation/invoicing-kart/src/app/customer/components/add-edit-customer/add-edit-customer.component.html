@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <!-- Customer Form -->
+    <div class="card">
+        <div class="card-header">
+            <h3>{{ isEditMode ? 'Update Customer' : 'Add Customer' }}</h3>
+        </div>
+        <div class="card-body">
+            <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+                <div class="form-group mb-3">
+                    <label for="name">Customer Name</label>
+                    <input type="text" id="name" formControlName="name" class="form-control"
+                        [ngClass]="{'is-invalid': isSubmitted && customerForm.controls['name'].invalid}">
+                    <div *ngIf="isSubmitted && customerForm.controls['name'].invalid" class="invalid-feedback">
+                        Customer Name is required.
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <textarea id="email" formControlName="email" class="form-control"
+                        [ngClass]="{'is-invalid': isSubmitted && customerForm.controls['email'].invalid}"></textarea>
+                    <div *ngIf="isSubmitted && customerForm.controls['email'].invalid" class="invalid-feedback">
+                        Email is required.
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="address">Address</label>
+                    <textarea id="address" formControlName="address" class="form-control"
+                        [ngClass]="{'is-invalid': isSubmitted && customerForm.controls['address'].invalid}"></textarea>
+                    <div *ngIf="isSubmitted && customerForm.controls['address'].invalid" class="invalid-feedback">
+                        Address is required.
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label for="contactNumber">Contact Number</label>
+                    <textarea id="contactNumber" formControlName="contactNumber" class="form-control"
+                        [ngClass]="{'is-invalid': isSubmitted && customerForm.controls['contactNumber'].invalid}"></textarea>
+                    <div *ngIf="isSubmitted && customerForm.controls['contactNumber'].invalid" class="invalid-feedback">
+                        Contact Number is required.
+                    </div>
+                </div>
+                
+
+                <button type="submit" class="btn btn-primary">{{ isEditMode ? 'Update Customer' : 'Add Customer'
+                    }}</button>
+                <button type="button" class="btn btn-secondary ml-2 btn-cancel"
+                    (click)="cancelEdit()">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div>
+

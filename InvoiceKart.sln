@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingKart.WebAPI", "InvoicingKart.WebAPI\InvoicingKart.WebAPI.csproj", "{17B5E8D6-C2AF-4375-905C-D1CFFA9B1295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingKart.Entity", "InvoicingKart.Entity\InvoicingKart.Entity.csproj", "{23266993-8F18-4FED-B8E6-948363C4D989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingKart.Repository", "InvoicingKart.Repository\InvoicingKart.Repository.csproj", "{AEFBE739-DB30-42B7-BCB3-4278869B9AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingKart.Shared", "InvoicingKart.Shared\InvoicingKart.Shared.csproj", "{14406F52-9735-4F3F-8171-A59140D6D115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B5E8D6-C2AF-4375-905C-D1CFFA9B1295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B5E8D6-C2AF-4375-905C-D1CFFA9B1295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B5E8D6-C2AF-4375-905C-D1CFFA9B1295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B5E8D6-C2AF-4375-905C-D1CFFA9B1295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23266993-8F18-4FED-B8E6-948363C4D989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23266993-8F18-4FED-B8E6-948363C4D989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23266993-8F18-4FED-B8E6-948363C4D989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23266993-8F18-4FED-B8E6-948363C4D989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFBE739-DB30-42B7-BCB3-4278869B9AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFBE739-DB30-42B7-BCB3-4278869B9AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFBE739-DB30-42B7-BCB3-4278869B9AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFBE739-DB30-42B7-BCB3-4278869B9AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14406F52-9735-4F3F-8171-A59140D6D115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14406F52-9735-4F3F-8171-A59140D6D115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14406F52-9735-4F3F-8171-A59140D6D115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14406F52-9735-4F3F-8171-A59140D6D115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

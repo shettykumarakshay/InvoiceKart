@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sb8mHryRBjmR1xkmgBUQhkBCC0TMYW8aPoNziYYwIlY=",
+  "Source": "InvoicingKart.WebAPI",
+  "BasePath": "_content/InvoicingKart.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
