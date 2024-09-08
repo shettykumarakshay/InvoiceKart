@@ -5,12 +5,21 @@ Application is build using .Net 8  and Angular 18
 Prerequisites:
 ------------------
 .NET 8 SDK. - 8.0.401
+
 Node.js - v20.17.0
+
 npm - 10.8.2
+
 angular CLI - v18.2.3
 
-**
-Please follow below instructions to run the application**
+**Folder Structure:**
+
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/166f1dad-79b0-43eb-8351-9d09728b9177">
+
+
+
+Please follow below instructions to run the application
 -----------------------------------------------------------
 
 Build and Run Angualr project in below folder path ( or host)
